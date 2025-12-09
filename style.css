@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: bold;
+    src: url(fonts/Korolev\ Bold.otf);
+
+}
+@font-face {
+    font-family: boll;
+    src: url(fonts/SoDoSans-Bold.ttf);
+
+}
+body{
+    background-color: #77a866;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: bold;
+} 
+.header{
+     height: 100px;
+    width:100%;
+    background-color: white;
+    border-bottom: 1px solid  #000000;
+    font-family: bold;
+}
+.header h3{
+  position: absolute;
+    margin-top: 25px;
+    margin-left: 40px;
+    font-size: 40px;
+    color:#77a866;
+}
+.box{
+      background-color:white;
+      height: 500px;
+      width: 400px;
+      border-radius: 40px;
+      border: 1px solid rgb(240, 240, 240);
+      color: black;
+          
+}
+.box h2{
+    margin-top:60px ;
+    text-align: center;
+    font-family: boll; 
+    font-size: 25px;
+   
+}
+.set{
+    margin-top:6px;
+    text-align: center;
+    font-size: medium;
+    color: grey;
+}
+.form1{
+    height: 40px;
+    width:250px;
+    margin-top: 100px;
+    margin-left: 60px;
+    border-radius: 10px;
+    border: 2px solid  #77a866;    
+}
+.form2{
+    height: 40px;
+    width:250px;
+    margin-top: 30px;
+    margin-left: 60px;
+    border-radius: 10px;
+    border: 2px solid#77a866; 
+}
+.ema{
+   position: absolute;
+   margin-top: 70px;
+   margin-left: 60px;
+   font-size:16px;
+
+}
+.pass{
+   position: absolute;
+   margin-top: 10px;
+   margin-left: 60px;
+}
+button{
+    height: 40px;
+    width: 250px;
+    background-color: #77a866;
+    position: absolute;
+   margin-top: 40px;
+   margin-left: 60px;
+   border-radius: 10px;
+   border: 1px solid #77a866 ;
+   color: white;
+    font-family: bold; 
+    font-size:large ;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+button a:hover{
+    text-decoration: underline;
+}
+.for a{
+     position: absolute;
+   margin-top: 6px;
+   margin-left: 200px;
+   color: rgb(0, 0, 0);
+   font-size: 17px;
+   text-decoration: none;
+}
+.for a:hover{
+    text-decoration: underline;
+     
+}
+
+.photo{
+    display: flex;
+    justify-content: space-around;
+}
+.photo img{
+    object-fit: cover;
+    height: 450px;
+    width:30%;
+    border: 1px solid  white;
+}
